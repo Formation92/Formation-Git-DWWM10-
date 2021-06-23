@@ -1,0 +1,50 @@
+p {
+    font-size: 2rem;
+}
+
+label,
+input,
+button {
+    font-size: 2rem;
+}
+
+table,
+th,
+tr,
+td {
+    border: black solid;
+    text-align: center;
+    font-weight: bolder;
+    border-collapse: collapse;
+}
+
+
+/* #nom {
+    color: blue;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#prenom {
+    color: rgb(245, 8, 55);
+    font-weight: bold;
+    text-transform: capitalize;
+} */
+
+
+/*.presentation {
+    font-size: 2rem;
+}*/
+
+
+/*#prixtotal,
+#coefficient,
+#copies,*/
+
+li {
+    font-size: 2rem;
+}
+
+input {
+    width: 200px;
+}

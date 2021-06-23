@@ -1,0 +1,9 @@
+table,
+th,
+tr,
+td {
+    border: black solid;
+    text-align: center;
+    font-weight: bolder;
+    border-collapse: collapse;
+}

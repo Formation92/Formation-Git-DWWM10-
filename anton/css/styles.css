@@ -1,0 +1,37 @@
+p {
+    font-size: 2rem;
+}
+
+label,
+input,
+button {
+    font-size: 2rem;
+}
+
+
+/* #nom {
+    color: blue;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#prenom {
+    color: rgb(245, 8, 55);
+    font-weight: bold;
+    text-transform: capitalize;
+} */
+
+#prixtotal,
+#coefficient,
+#copies,
+li {
+    font-size: 2rem;
+}
+
+input {
+    width: 200;
+}
+
+.yellow {
+    background-color: yellow;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #4b6344;
+}
+
+h1, h2 {
+    color: #ad1616;
+}
+
+strong {
+    color: red;
+}
+
+#demo {
+    color: #070bca; 
+}
+
+
+
+nav ul li {
+    list-style: none;
+    line-height: 69px;
+    height: 69px;
+    width: 300px;
+    text-align: center;
+    float: left;
+}
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+    display: block;
+    transition: 1s;
+}
+nav ul li a:hover{
+    background: grey;
+    color: white;
+}

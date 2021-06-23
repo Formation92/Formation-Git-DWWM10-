@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Exo 4</title>
+</head>
+<body>
+    <div style="text-align:left">Entrer le nombre de photocopies souhaiter: <input type="text" id="copie"> </div>
+
+    <div style="text-align:left"><input type="button" value="valider" onClick="calculer()"> </div>
+
+    <p id="resultat"></p>
+
+</body>
+<script>
+
+function calculer() {
+
+    let copie = document.getElementById("copie").value;
+    copie = Number(copie);
+
+    let total = 0;
+
+
+    if (copie <= 10 ){
+        document.getElementById("resultat").innerHTML = "vous nous devez " + copie * 0.5 + "€";
+
+        total = copie * 0.5 ;
+
+    } else if (copie > 10  && copie <= 20 ) {
+        document.getElementById("resultat").innerHTML = "vous nous devez " + copie * 0.4 + "€";
+
+        total = copie * 0.4 ;
+        
+    } else {
+        document.getElementById("resultat").innerHTML = "vous nous devez " + copie * 0.3 + "€";
+
+        total = copie * 0.3 ;
+       
+    }
+
+    if ( total > 10 ) {
+        document.getElementById("resultat").innerHTML =   
+        "<div class='yellow'>"+ total
+            + "</div>";
+    }
+    else {
+        document.getElementById("resultat").innerHTML =         
+        AfficherLigne()+AfficherLigne()+
+        "vous nous devez " + total + "€</br>"+
+        AfficherLigne()+AfficherLigne();
+    }
+}
+
+function AfficherLigne() {
+    return "-*-*-*-*-*-*-*-*-*-*-*-*-*-</br>";
+}
+
+</script>
+</html>
