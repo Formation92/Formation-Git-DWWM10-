@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1> Calcul Salaire Net </h1>
+
+    <div class="container">
+        <form action="" class="form" id="form">
+
+            <!-- Salaire Brut -->
+            <div class="salaire">
+                <label for="salaire"> Entrez votre salaire brut</label>
+                <input type="text" id="salaire" title=" votre salaire brut" required>
+            </div>
+            <!-- Bonnus / Allocation -->
+            <div class="bonnus-container">
+                <h3>Quel bonnus souhaitez vous? </h3>
+                <div class="radio-bonnus">
+                    <input type="radio" value="100" id="bonnus" name="bonnus" required>
+                    <label for="bonus"> Supplement bonnus -> 100€</label>
+
+                </div>
+                <div class="radio-bonnus">
+                    <input type="radio" value="150" id="alloc" name="bonnus">
+                    <label for="alloc"> Allocation -> 150€</label>
+
+                </div>
+            </div>
+            <!-- Reduction d'impots -->
+            <div class="reduction-impots">
+                <h3>Votre situation pour reduction impot</h3>
+                <div class="sexe">
+                    <p>Quel est votre sexe?</p>
+                    <input type="radio" id="femme" name="sexe" value="femme" required>
+                    <label for="femme"> Femme</label>
+                    <input type="radio" id="homme" name="sexe" value="homme">
+                    <label for="homme">Homme</label>
+                </div>
+                <div class="charge">
+                    <label for="personne à charge">Nombre de personne à charge?</label>
+                    <select name="personne à charge" id="personneACharge" required>
+                        <option value=""> -- nbr de personne à charge</option>
+                        <option value="0"> moins de 3 personnes à charge</option>
+                        <option value="3"> 3 personnes à charge</option>
+                        <option value="4"> 4 personnes à charge</option>
+                    </select>
+
+                </div>
+            </div>
+            <!-- Button submit -->
+            <div class="submit">
+                <button type="submit">Calculer</button>
+            </div>
+
+        </form>
+    </div>
+            <!-- Resultat -->
+        <div class="resultat" id="resultat" hidden>
+            <p id="result">Votre salaire net est de 2000€ par moi</p>
+        </div>
+    
+
+    
+</body>
+
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,65 @@
+p {
+    font-size: 2rem;
+}
+
+label,
+input,
+button {
+    font-size: 2rem;
+}
+
+table,
+th,
+tr,
+td {
+    border: black solid;
+    margin: 2px;
+    text-align: center;
+    font-weight: bolder;
+    border-collapse: collapse;
+}
+
+table {
+    display: inline;
+    font-size: 1rem;
+}
+
+
+/*Je veux que les tables s'affichent à la ligne
+quand elles prennent trop de place sur la ligne*/
+
+.conteneurflex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+/* #nom {
+    color: blue;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#prenom {
+    color: rgb(245, 8, 55);
+    font-weight: bold;
+    text-transform: capitalize;
+} */
+
+
+/*.presentation {
+    font-size: 2rem;
+}*/
+
+
+/*#prixtotal,
+#coefficient,
+#copies,*/
+
+li {
+    font-size: 2rem;
+}
+
+input {
+    width: 200px;
+}

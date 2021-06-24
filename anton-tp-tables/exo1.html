@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue à vous</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body lang="fr">
+
+    <!--
+    <h1>Calcul du prix des copies </h1>
+    <label for="#copies ">Veuillez saisir le nombre de copies souhaitées : </label>
+    <ul>
+        <li><input id="copies" type="number" class="presentation" required></li>
+        <li><label id="coefficient" class="presentation"></label></li>
+        <li id="prixtotal" class="presentation"> </li>
+    </ul>
+    <button onclick="calculePrixTotal()">Afficher</button></p>
+    -->
+
+    <!--   TABLE DE MULTIPLICATION-->
+    <!--
+    <h1>Table de multiplication </h1>
+    <p>
+        </<label for="#tablemultiplication ">Veuillez saisir la table : </label>
+        <button onclick="afficheTabledeMultiplication()">Calculer</button></p>
+    <p><input id="tablemultiplication" type="number" class="presentation" required></p>
+        <h1>Table de multiplication </h1>
+
+    */
+-->
+    <h1> Exercices faits à la suite </h1>
+
+    <h2>Tables de multiplication de 1 à 10 </h2>
+    <button onclick="afficheTablesDeMultiplicationJusquaDix()">Afficher les tables</button></p>
+    <p id="conteneurtable" class="conteneurflex"></p>
+
+
+
+
+
+    <h1>Ecriture d'un nombre en toutes lettres </h1>
+    <p><label for="#nombreEnLettres">Veuillez saisir un chiffre positif inférieur à mille (1000) : </label>
+        <p><input id="nombreEnLettres" type="number" class="presentation" onkeyup="afficheNombreEnToutesLettres()" onchange="afficheNombreEnToutesLettres()"></p>
+        <!--<button onclick="afficheNombreEnToutesLettres()">Afficher</button>-->
+    </p>
+    <p id="conteneurNombreRetranscrit"></p>
+
+</body>
+
+<script src="./javascript/exo1.js">
+</script>
+
+</html>

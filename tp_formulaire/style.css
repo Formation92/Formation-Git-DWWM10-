@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&family=Oswald&display=swap');
+
+:root{
+    --primary-color: salmon; 
+    --text-color: white; 
+}
+
+body{
+
+    background-color: var( --primary-color);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Kaushan Script', Arial, Helvetica, sans-serif;
+}
+
+.form{
+    
+    min-width: 300px;
+    max-width: 600px;
+    border: 1px solid #333;
+    padding: 2rem;
+    margin-bottom: 25px;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.sexe{
+    margin-bottom: 2rem;
+}
+.sexe p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-weight: 900;
+}
+
+.charge{
+    margin-bottom: 2rem;
+
+}
+
+select{
+    margin-left: 5px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    cursor: pointer;
+    font-size: 16px;
+    padding: 1rem;
+    width: 150px;
+    background-color: violet;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0 , 0.4);
+}
+
+button:hover{
+    background-color: rgb(212, 154, 212);
+}
+
+
+.resultat{
+    width: auto;
+    padding: 15px;
+    height: 50px;
+    border: 2px solid purple;
+    text-align: center;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
