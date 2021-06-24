@@ -12,8 +12,10 @@ Il est possible de recevoir des réductions sur les impôts sur le revenu sous c
 Pour le (2), vous aurez besoin de checbox et d'une liste à option
 */
 
-/* MODIFICATION */
 
+
+
+/* MODIFICATION 2 */
 
 // Constantes
 
